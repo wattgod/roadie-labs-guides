@@ -1,0 +1,446 @@
+{
+  "status": "passed",
+  "race_count": 12,
+  "expected_guide_count": 84,
+  "verified_guide_count": 84,
+  "changed_guide_count": 84,
+  "changed": [
+    "athletes/gfny-nyc-compete-12wk/index.html",
+    "athletes/gfny-nyc-finisher-12wk/index.html",
+    "athletes/gfny-nyc-finisher-8wk/index.html",
+    "athletes/gfny-nyc-masters-12wk/index.html",
+    "athletes/gfny-nyc-save-my-race-6wk/index.html",
+    "athletes/gfny-nyc-time-crunched-12wk/index.html",
+    "athletes/gfny-nyc-time-crunched-8wk/index.html",
+    "athletes/letape-norway-compete-12wk/index.html",
+    "athletes/letape-norway-finisher-12wk/index.html",
+    "athletes/letape-norway-finisher-8wk/index.html",
+    "athletes/letape-norway-masters-12wk/index.html",
+    "athletes/letape-norway-save-my-race-6wk/index.html",
+    "athletes/letape-norway-time-crunched-12wk/index.html",
+    "athletes/letape-norway-time-crunched-8wk/index.html",
+    "athletes/letape-cancun-compete-12wk/index.html",
+    "athletes/letape-cancun-finisher-12wk/index.html",
+    "athletes/letape-cancun-finisher-8wk/index.html",
+    "athletes/letape-cancun-masters-12wk/index.html",
+    "athletes/letape-cancun-save-my-race-6wk/index.html",
+    "athletes/letape-cancun-time-crunched-12wk/index.html",
+    "athletes/letape-cancun-time-crunched-8wk/index.html",
+    "athletes/etape-caledonia-compete-12wk/index.html",
+    "athletes/etape-caledonia-finisher-12wk/index.html",
+    "athletes/etape-caledonia-finisher-8wk/index.html",
+    "athletes/etape-caledonia-masters-12wk/index.html",
+    "athletes/etape-caledonia-save-my-race-6wk/index.html",
+    "athletes/etape-caledonia-time-crunched-12wk/index.html",
+    "athletes/etape-caledonia-time-crunched-8wk/index.html",
+    "athletes/tour-de-big-bear-compete-12wk/index.html",
+    "athletes/tour-de-big-bear-finisher-12wk/index.html",
+    "athletes/tour-de-big-bear-finisher-8wk/index.html",
+    "athletes/tour-de-big-bear-masters-12wk/index.html",
+    "athletes/tour-de-big-bear-save-my-race-6wk/index.html",
+    "athletes/tour-de-big-bear-time-crunched-12wk/index.html",
+    "athletes/tour-de-big-bear-time-crunched-8wk/index.html",
+    "athletes/arlberg-giro-compete-12wk/index.html",
+    "athletes/arlberg-giro-finisher-12wk/index.html",
+    "athletes/arlberg-giro-finisher-8wk/index.html",
+    "athletes/arlberg-giro-masters-12wk/index.html",
+    "athletes/arlberg-giro-save-my-race-6wk/index.html",
+    "athletes/arlberg-giro-time-crunched-12wk/index.html",
+    "athletes/arlberg-giro-time-crunched-8wk/index.html",
+    "athletes/letape-argentina-compete-12wk/index.html",
+    "athletes/letape-argentina-finisher-12wk/index.html",
+    "athletes/letape-argentina-finisher-8wk/index.html",
+    "athletes/letape-argentina-masters-12wk/index.html",
+    "athletes/letape-argentina-save-my-race-6wk/index.html",
+    "athletes/letape-argentina-time-crunched-12wk/index.html",
+    "athletes/letape-argentina-time-crunched-8wk/index.html",
+    "athletes/levis-granfondo-compete-12wk/index.html",
+    "athletes/levis-granfondo-finisher-12wk/index.html",
+    "athletes/levis-granfondo-finisher-8wk/index.html",
+    "athletes/levis-granfondo-masters-12wk/index.html",
+    "athletes/levis-granfondo-save-my-race-6wk/index.html",
+    "athletes/levis-granfondo-time-crunched-12wk/index.html",
+    "athletes/levis-granfondo-time-crunched-8wk/index.html",
+    "athletes/styrkeproven-compete-12wk/index.html",
+    "athletes/styrkeproven-finisher-12wk/index.html",
+    "athletes/styrkeproven-finisher-8wk/index.html",
+    "athletes/styrkeproven-masters-12wk/index.html",
+    "athletes/styrkeproven-save-my-race-6wk/index.html",
+    "athletes/styrkeproven-time-crunched-12wk/index.html",
+    "athletes/styrkeproven-time-crunched-8wk/index.html",
+    "athletes/gran-fondo-florida-compete-12wk/index.html",
+    "athletes/gran-fondo-florida-finisher-12wk/index.html",
+    "athletes/gran-fondo-florida-finisher-8wk/index.html",
+    "athletes/gran-fondo-florida-masters-12wk/index.html",
+    "athletes/gran-fondo-florida-save-my-race-6wk/index.html",
+    "athletes/gran-fondo-florida-time-crunched-12wk/index.html",
+    "athletes/gran-fondo-florida-time-crunched-8wk/index.html",
+    "athletes/highlands-gran-fondo-compete-12wk/index.html",
+    "athletes/highlands-gran-fondo-finisher-12wk/index.html",
+    "athletes/highlands-gran-fondo-finisher-8wk/index.html",
+    "athletes/highlands-gran-fondo-masters-12wk/index.html",
+    "athletes/highlands-gran-fondo-save-my-race-6wk/index.html",
+    "athletes/highlands-gran-fondo-time-crunched-12wk/index.html",
+    "athletes/highlands-gran-fondo-time-crunched-8wk/index.html",
+    "athletes/gfny-jose-ignacio-compete-12wk/index.html",
+    "athletes/gfny-jose-ignacio-finisher-12wk/index.html",
+    "athletes/gfny-jose-ignacio-finisher-8wk/index.html",
+    "athletes/gfny-jose-ignacio-masters-12wk/index.html",
+    "athletes/gfny-jose-ignacio-save-my-race-6wk/index.html",
+    "athletes/gfny-jose-ignacio-time-crunched-12wk/index.html",
+    "athletes/gfny-jose-ignacio-time-crunched-8wk/index.html"
+  ],
+  "sources": {
+    "gfny-nyc": "https://nyc.gfny.com/wp-content/uploads/sites/8/2026/05/GFNY26-Race-Guide-EN.pdf",
+    "letape-norway": "https://trondheim.letapeseries.com/",
+    "letape-cancun": "https://cancun.letapeseries.com/stages",
+    "etape-caledonia": "https://www.etapecaledonia.com/",
+    "tour-de-big-bear": "https://tourdebigbear.com/road/",
+    "arlberg-giro": "https://arlberg-giro.com/en/home",
+    "letape-argentina": "https://argentina.letapeseries.com/",
+    "levis-granfondo": "https://www.levisgranfondo.com/guide",
+    "styrkeproven": "https://styrkeproven.no/main-page/trondheim-oslo/?lang=en",
+    "gran-fondo-florida": "https://ridewithgps.com/routes/6205144",
+    "highlands-gran-fondo": "https://ridewithgps.com/routes/11738715",
+    "gfny-jose-ignacio": "https://gfny.com/gfny-announces-jose-ignacio-race-on-uruguays-atlantic-coast/"
+  },
+  "files": [
+    {
+      "path": "athletes/gfny-nyc-compete-12wk/index.html",
+      "sha256": "619650688eacf487f72b1b25bfc91a0af8574509040f427b2e842d55ce254fb2"
+    },
+    {
+      "path": "athletes/gfny-nyc-finisher-12wk/index.html",
+      "sha256": "10539e0d42071e72b6c29ea4104ee9cde74a99abe4404b84ca4f9986c0a4cd9e"
+    },
+    {
+      "path": "athletes/gfny-nyc-finisher-8wk/index.html",
+      "sha256": "c057f8d54feea6b8fa3b0a53e4091fe46c92e3663438e60a2eee3db6aa290b7b"
+    },
+    {
+      "path": "athletes/gfny-nyc-masters-12wk/index.html",
+      "sha256": "3ec9f8547499a4a64a8168858cc9c0764289233353fb5d2c61d808a7c93d699f"
+    },
+    {
+      "path": "athletes/gfny-nyc-save-my-race-6wk/index.html",
+      "sha256": "e1dbe0c0ce91fe94ce6167298b7a5ff90f73c61876d1a8694d84d312b57bb3f5"
+    },
+    {
+      "path": "athletes/gfny-nyc-time-crunched-12wk/index.html",
+      "sha256": "f1db08ea525e1eb198b8866405550fbd20518eb6cf175795c2a6a4de1db485eb"
+    },
+    {
+      "path": "athletes/gfny-nyc-time-crunched-8wk/index.html",
+      "sha256": "5551b683da17b7f3edd8a3319a37e233c9a3a52c92f19cc6c4f2f161c43d8186"
+    },
+    {
+      "path": "athletes/letape-norway-compete-12wk/index.html",
+      "sha256": "13431d8bb1dd1722880673e9bb20a55a39881a1e8bfb46e9ff2327dddb758e69"
+    },
+    {
+      "path": "athletes/letape-norway-finisher-12wk/index.html",
+      "sha256": "22323783cab0e13af3d7870d27747f6a3c7ab191cbb5657744fcd2b87159d8df"
+    },
+    {
+      "path": "athletes/letape-norway-finisher-8wk/index.html",
+      "sha256": "cb9effeafb73277059b13a4c043b5153f307276d6aa86c73407688742c5c0de6"
+    },
+    {
+      "path": "athletes/letape-norway-masters-12wk/index.html",
+      "sha256": "c45adc8fd9c3d43d856c2a2fdb05458c872986931973b817d2d29593dd9f9081"
+    },
+    {
+      "path": "athletes/letape-norway-save-my-race-6wk/index.html",
+      "sha256": "f201119632227df98b60f00139f28b69251748cc729fef8e88bba971304ef613"
+    },
+    {
+      "path": "athletes/letape-norway-time-crunched-12wk/index.html",
+      "sha256": "f4099663888d887cb4fad65db1b24997cf81239c857bd84902eecfc011c2a30e"
+    },
+    {
+      "path": "athletes/letape-norway-time-crunched-8wk/index.html",
+      "sha256": "1b7cde0f00f2e0a578f52f8b1eb071c49e94d16e50398c7b77a0eba1a8631fff"
+    },
+    {
+      "path": "athletes/letape-cancun-compete-12wk/index.html",
+      "sha256": "400ce55295788776bca40bfdcac1d02f311c0e5abccd150369c99ee490e9523e"
+    },
+    {
+      "path": "athletes/letape-cancun-finisher-12wk/index.html",
+      "sha256": "f772e51fe7441a88b683d17cf12a476cb8d2389a0e1d1e8cdfc7b46945c230d4"
+    },
+    {
+      "path": "athletes/letape-cancun-finisher-8wk/index.html",
+      "sha256": "f5d3bd7cf7fc6020f41e699f14860c5341b793d92aadc2904552ca44ba2b814b"
+    },
+    {
+      "path": "athletes/letape-cancun-masters-12wk/index.html",
+      "sha256": "1507e841c5cf38f4ac6d722ec5f0b162bfb8e216ad9f0023ca57caa13ceebc08"
+    },
+    {
+      "path": "athletes/letape-cancun-save-my-race-6wk/index.html",
+      "sha256": "a73db479db098973d37c5e0cd357b107296ad7097821b0ce23697b70745f4c31"
+    },
+    {
+      "path": "athletes/letape-cancun-time-crunched-12wk/index.html",
+      "sha256": "b19a31d2f4a1ff0b06017d86d4ae8279a338aa4d7407705b077c9aaa8f2f4de9"
+    },
+    {
+      "path": "athletes/letape-cancun-time-crunched-8wk/index.html",
+      "sha256": "c8d0767d832b1b1b18c634226547096681bc344fd5bd8be99849113942c6ac86"
+    },
+    {
+      "path": "athletes/etape-caledonia-compete-12wk/index.html",
+      "sha256": "07e0def5587cb02670ac456c991aedef733cb446f364a75c0f4a52a28d572f2b"
+    },
+    {
+      "path": "athletes/etape-caledonia-finisher-12wk/index.html",
+      "sha256": "13efdd4d96fec10f6bc1e788fdd5a17a309096cb416d98088e8e74d4d67da8d1"
+    },
+    {
+      "path": "athletes/etape-caledonia-finisher-8wk/index.html",
+      "sha256": "102e055d0ee05e561abdadd71ef2bb6f69e368dda7dcd120caf52c991129eb8b"
+    },
+    {
+      "path": "athletes/etape-caledonia-masters-12wk/index.html",
+      "sha256": "7dca787a1326f50b4f4683986df92665b1fedf854edbb2698ae2885a28a50b44"
+    },
+    {
+      "path": "athletes/etape-caledonia-save-my-race-6wk/index.html",
+      "sha256": "6216353e21ac5d19fc51d2ad15b0d4f2b74ece1f46ec9bbf177b245c71c2889e"
+    },
+    {
+      "path": "athletes/etape-caledonia-time-crunched-12wk/index.html",
+      "sha256": "37062ac2144fa96a4771f486553e629fbd69d2562c83c630ba485b4dc97786bd"
+    },
+    {
+      "path": "athletes/etape-caledonia-time-crunched-8wk/index.html",
+      "sha256": "8d705e3c2de401d98fcb3ddde743a274a2edd9283b23b8fe4bae14a0ae318258"
+    },
+    {
+      "path": "athletes/tour-de-big-bear-compete-12wk/index.html",
+      "sha256": "af36a4a2011dd74ad1357ba0c731cb3c96d95a8b59120ec003448f937c754c70"
+    },
+    {
+      "path": "athletes/tour-de-big-bear-finisher-12wk/index.html",
+      "sha256": "f03ff942dd5b4aa355c64512864d42a3f079138f582d60435962d85b18d8a432"
+    },
+    {
+      "path": "athletes/tour-de-big-bear-finisher-8wk/index.html",
+      "sha256": "5e7cb186c3c69f87cfe18b3ac8670b11e1ef7cb223a4dc19d639a9e60f8bfac7"
+    },
+    {
+      "path": "athletes/tour-de-big-bear-masters-12wk/index.html",
+      "sha256": "4ff82d77d85d8879dc9b60aadbe54ba4691e3d876c976020b574392e8e94ef0c"
+    },
+    {
+      "path": "athletes/tour-de-big-bear-save-my-race-6wk/index.html",
+      "sha256": "2b14ad30914c5c5b0a8fd88eed779aff784e7c1729bc54f18370d1e76d1bfd0b"
+    },
+    {
+      "path": "athletes/tour-de-big-bear-time-crunched-12wk/index.html",
+      "sha256": "888e4851bfc761de44f42f67ba646b6c2b837fde3d0db9fe3a694fad2621d62f"
+    },
+    {
+      "path": "athletes/tour-de-big-bear-time-crunched-8wk/index.html",
+      "sha256": "ef4148a9266a15a161dec066b849adb876b5d3e989571d77fdcb954d3b508a78"
+    },
+    {
+      "path": "athletes/arlberg-giro-compete-12wk/index.html",
+      "sha256": "5ee34c8025da15643e9c6c6bf80b339fda0519a4bde26c51cf8f749f0f7a73e6"
+    },
+    {
+      "path": "athletes/arlberg-giro-finisher-12wk/index.html",
+      "sha256": "8e119e81230575ad34ca99de2d4dd1c1b5d67c570fae6ed46268cc7a379f4034"
+    },
+    {
+      "path": "athletes/arlberg-giro-finisher-8wk/index.html",
+      "sha256": "35ba39837362b918cec66898a9cde3a4e26234ae40b42021d4d5f097d7e40069"
+    },
+    {
+      "path": "athletes/arlberg-giro-masters-12wk/index.html",
+      "sha256": "724a5eacca5232ee290192f6444761c7f68184f3bb8677793fe0dbb65a0bb9ba"
+    },
+    {
+      "path": "athletes/arlberg-giro-save-my-race-6wk/index.html",
+      "sha256": "84d7a86c450a7475d7004e0a9a4e9c10ce552170ed1df2af509418af80c723ae"
+    },
+    {
+      "path": "athletes/arlberg-giro-time-crunched-12wk/index.html",
+      "sha256": "69bb831f42166ed9d7d002d3d97d24c34ac6a85cf8aadcb0a2c7a1ec47943eff"
+    },
+    {
+      "path": "athletes/arlberg-giro-time-crunched-8wk/index.html",
+      "sha256": "2214c1372edc17a566b14a4ade8445706ed8df6117cf56f598716f34b03a8ed2"
+    },
+    {
+      "path": "athletes/letape-argentina-compete-12wk/index.html",
+      "sha256": "9051a7af63444e28905738f13d04e3d801745192c51518423a2bf10724ddb0c2"
+    },
+    {
+      "path": "athletes/letape-argentina-finisher-12wk/index.html",
+      "sha256": "68c909eb5aa9feee9faa535672793f963f9585cb100cf46236ac07701a0b531a"
+    },
+    {
+      "path": "athletes/letape-argentina-finisher-8wk/index.html",
+      "sha256": "a93c9b592c5ddb6fe3c7718fb85151126cc376866796249d084c569e676f1ee6"
+    },
+    {
+      "path": "athletes/letape-argentina-masters-12wk/index.html",
+      "sha256": "839327dccacf59ede1defe643bcea277e61248de63b876cefe13f2f9aee69dca"
+    },
+    {
+      "path": "athletes/letape-argentina-save-my-race-6wk/index.html",
+      "sha256": "f2e31ac44ae0e3d3ed66bce4e76a23513d96d5fb6d8071a02b46e23684d0708e"
+    },
+    {
+      "path": "athletes/letape-argentina-time-crunched-12wk/index.html",
+      "sha256": "15d16987a66ccc62a44df857a9d915e180faf99489d4df1f7ae529241df926ad"
+    },
+    {
+      "path": "athletes/letape-argentina-time-crunched-8wk/index.html",
+      "sha256": "4dd4179c5a7a9ca473d898dc904a8063e150b353d8dee4cbfcd4a9e5ca201ed6"
+    },
+    {
+      "path": "athletes/levis-granfondo-compete-12wk/index.html",
+      "sha256": "65eceb90a2efe4d0c27226956187fd091e3d58170f69e5359115d8eaecd79fb7"
+    },
+    {
+      "path": "athletes/levis-granfondo-finisher-12wk/index.html",
+      "sha256": "faa89a8efbc5cb45720325729e91e67ab25709c37ac342403776aba253ff27b0"
+    },
+    {
+      "path": "athletes/levis-granfondo-finisher-8wk/index.html",
+      "sha256": "92809881ce3f0ab9e52ae8e7c0542a8628202e56bd9203e9dcd98632594f63df"
+    },
+    {
+      "path": "athletes/levis-granfondo-masters-12wk/index.html",
+      "sha256": "20ac0dfd8d3b85e94f5eb9e2387bc176ebffbf91d0dd9685dd751f75df1dfa90"
+    },
+    {
+      "path": "athletes/levis-granfondo-save-my-race-6wk/index.html",
+      "sha256": "23e5b91ebdc2dbb691fb29f72decabf2134154b423d75a34d086dbc3e2cb928c"
+    },
+    {
+      "path": "athletes/levis-granfondo-time-crunched-12wk/index.html",
+      "sha256": "95c5d214e78296890e6619f865f40c5e5720a05f17ed503115315df0a5ce9fd8"
+    },
+    {
+      "path": "athletes/levis-granfondo-time-crunched-8wk/index.html",
+      "sha256": "d1acd4a187db534e721850459253bc10b6536dba3f9aa51c3756c0e5af368339"
+    },
+    {
+      "path": "athletes/styrkeproven-compete-12wk/index.html",
+      "sha256": "d8f4290209f316ca63289f6df404de992f898151dba3751db0b22b8bf7160266"
+    },
+    {
+      "path": "athletes/styrkeproven-finisher-12wk/index.html",
+      "sha256": "934eaa79fd18fea3398a7509df545a3fccab9cca22f8e0c7eadd24e41471bfb2"
+    },
+    {
+      "path": "athletes/styrkeproven-finisher-8wk/index.html",
+      "sha256": "e5ea7a5183821c811c88c589cb56404d6a51860b924a8c85daa7d7ffaf4f7dd7"
+    },
+    {
+      "path": "athletes/styrkeproven-masters-12wk/index.html",
+      "sha256": "371e01e2ec916a99aa410c3df8ac6d0cfa0061be7c3572966fc82e4acef25020"
+    },
+    {
+      "path": "athletes/styrkeproven-save-my-race-6wk/index.html",
+      "sha256": "cdae5fcc032dab127cf5d244a2b7084c61ee532eb19310a492a8ef4b0b5933c1"
+    },
+    {
+      "path": "athletes/styrkeproven-time-crunched-12wk/index.html",
+      "sha256": "bf274b1f5d651f331e24b9bd341b7a3cb3d14519b6b3cc3cd23131f0eef6c239"
+    },
+    {
+      "path": "athletes/styrkeproven-time-crunched-8wk/index.html",
+      "sha256": "b7e6e6ed7177aa1794ded6d359b94d27007742b4578b96b9f4b5490c3a6990f6"
+    },
+    {
+      "path": "athletes/gran-fondo-florida-compete-12wk/index.html",
+      "sha256": "fe9b55e65282a02b993f4811823ad06d07bc834df291ab1124fa124563effa6c"
+    },
+    {
+      "path": "athletes/gran-fondo-florida-finisher-12wk/index.html",
+      "sha256": "3152f3737cdecbef6ab1729a2aaeb7523c4091d285122b9bb1526b55421eb6df"
+    },
+    {
+      "path": "athletes/gran-fondo-florida-finisher-8wk/index.html",
+      "sha256": "31d079e53777fe61325716812dec46af8068130b13021930a75ecb75988e4d98"
+    },
+    {
+      "path": "athletes/gran-fondo-florida-masters-12wk/index.html",
+      "sha256": "2e3932ef938e6fa29e79d3ba8f40df5fa847cae4d4d1007bd745d73d2521bac8"
+    },
+    {
+      "path": "athletes/gran-fondo-florida-save-my-race-6wk/index.html",
+      "sha256": "563bdcfbf2b6afbf5ce022eb81ee88fcb66869240cc478e39ebb3d616c033afd"
+    },
+    {
+      "path": "athletes/gran-fondo-florida-time-crunched-12wk/index.html",
+      "sha256": "bceb852056c9f5dac302cec54ddd8dc9576f0f1bad286aaa71643218f56867f2"
+    },
+    {
+      "path": "athletes/gran-fondo-florida-time-crunched-8wk/index.html",
+      "sha256": "7ce0d0c141a11d2b7e28b351bbdc1e86262fd37fecd82155d0acb5728cc676d3"
+    },
+    {
+      "path": "athletes/highlands-gran-fondo-compete-12wk/index.html",
+      "sha256": "2948b6a7970201b6004620144b5ab36908d7e9081b37b35cd2e059d2df7e163f"
+    },
+    {
+      "path": "athletes/highlands-gran-fondo-finisher-12wk/index.html",
+      "sha256": "03a7f946c17d825c18ca8ce4981f35f55041777f462c7cc2e441f5a132f3708c"
+    },
+    {
+      "path": "athletes/highlands-gran-fondo-finisher-8wk/index.html",
+      "sha256": "c45466dfa9cf366c90401f911225122204035f98915b8f4903fdcadddcb7fd50"
+    },
+    {
+      "path": "athletes/highlands-gran-fondo-masters-12wk/index.html",
+      "sha256": "5c79ca63d1bc5cd88784985b1a7896ec6c9deda1b85b2654ddbcad03cb0e8693"
+    },
+    {
+      "path": "athletes/highlands-gran-fondo-save-my-race-6wk/index.html",
+      "sha256": "b5a7c53c51a072ff32296a96a866ad57b639c0602a3c4c4704c8e7afa0ac784d"
+    },
+    {
+      "path": "athletes/highlands-gran-fondo-time-crunched-12wk/index.html",
+      "sha256": "3d8ca88208d5fba3feb70bbf89b664a29720b89c6039129f9fa129e17fc22812"
+    },
+    {
+      "path": "athletes/highlands-gran-fondo-time-crunched-8wk/index.html",
+      "sha256": "2216a63895fa7605785df0f4b637046f75be04a00a05733a2f97303e06d8f273"
+    },
+    {
+      "path": "athletes/gfny-jose-ignacio-compete-12wk/index.html",
+      "sha256": "a65f38e6a2e1239b32b258381074d3423d11ab46df18a360c45329a039c0da08"
+    },
+    {
+      "path": "athletes/gfny-jose-ignacio-finisher-12wk/index.html",
+      "sha256": "604e469e33e5b31be722dcc37cfeb0797e316d5f5080c1d9a1b8df2529449247"
+    },
+    {
+      "path": "athletes/gfny-jose-ignacio-finisher-8wk/index.html",
+      "sha256": "4126b814783f858a65d4d531e8ac8160f031107cd51f3e7d94a1a072c83e2194"
+    },
+    {
+      "path": "athletes/gfny-jose-ignacio-masters-12wk/index.html",
+      "sha256": "537495d1eaf85908d9d47d9a3af4884e2859c5a514713933b43a998dc454b4a8"
+    },
+    {
+      "path": "athletes/gfny-jose-ignacio-save-my-race-6wk/index.html",
+      "sha256": "d27da6e7810e9db899b740bfd76ba9c1646d84597a2d4f88b53e216f87475f87"
+    },
+    {
+      "path": "athletes/gfny-jose-ignacio-time-crunched-12wk/index.html",
+      "sha256": "57dff7763f309ee919334b8af652bdf226bab8cf92104bafc96972ed9807de44"
+    },
+    {
+      "path": "athletes/gfny-jose-ignacio-time-crunched-8wk/index.html",
+      "sha256": "1f9e7472a1c04667a2352e656738c5c4cabbdf0abec14eaa67731111e288f06f"
+    }
+  ],
+  "failures": {}
+}
