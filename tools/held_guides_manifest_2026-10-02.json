@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "reason": "Temporary buyer safety replacement for 42 marketplace guides that presented invented personal data as buyer facts. Full plan-bound guides and calendar review remain open.",
+  "published_on": "2026-10-02",
+  "authorization": "Matti: approve and continue; see it out",
+  "entries": [
+    {
+      "plan_id": 666845,
+      "plan_title": "Granfondo Colnago · Finisher · 12wk",
+      "source_path": "athletes/granfondo-colnago-finisher-12wk/index.html",
+      "before_sha256": "115bebdd2accc762a41504fb9c6eea2cf67bf4248b9a2a525454983215d3e453",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-colnago-finisher-12wk/"
+    },
+    {
+      "plan_id": 666846,
+      "plan_title": "Granfondo Colnago · Finisher · 8wk",
+      "source_path": "athletes/granfondo-colnago-finisher-8wk/index.html",
+      "before_sha256": "33fd01a400017e1d20b0abffc5bc71e1f963535d7efe6067e1a5f5e83ab2595f",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-colnago-finisher-8wk/"
+    },
+    {
+      "plan_id": 666847,
+      "plan_title": "Granfondo Colnago · Time-Crunched · 12wk",
+      "source_path": "athletes/granfondo-colnago-time-crunched-12wk/index.html",
+      "before_sha256": "dc25b7d4f5002542413597b166355c8994d12ca0b9fecd15ce87e71bf11b07ed",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-colnago-time-crunched-12wk/"
+    },
+    {
+      "plan_id": 666848,
+      "plan_title": "Granfondo Colnago · Time-Crunched · 8wk",
+      "source_path": "athletes/granfondo-colnago-time-crunched-8wk/index.html",
+      "before_sha256": "92eb2b1d32fd9dc7463d7a2736f531e9ca072f0949a67f17d211a3b7dada6e5b",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-colnago-time-crunched-8wk/"
+    },
+    {
+      "plan_id": 666849,
+      "plan_title": "Granfondo Colnago · Compete · 12wk",
+      "source_path": "athletes/granfondo-colnago-compete-12wk/index.html",
+      "before_sha256": "d0cfdb71322b054a37f254dd8fc1aa05f969a57333285daf2fc557566427ea10",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-colnago-compete-12wk/"
+    },
+    {
+      "plan_id": 666850,
+      "plan_title": "Granfondo Colnago · Masters 50+ · 12wk",
+      "source_path": "athletes/granfondo-colnago-masters-12wk/index.html",
+      "before_sha256": "92029123582aaf30a6795539b2e1b399c61cad06390768f9b8a87590c5706a98",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-colnago-masters-12wk/"
+    },
+    {
+      "plan_id": 666851,
+      "plan_title": "Granfondo Colnago · Save My Race · 6wk",
+      "source_path": "athletes/granfondo-colnago-save-my-race-6wk/index.html",
+      "before_sha256": "31ea64d2376da9784a7050d576055f7d10e9be05b8e318dc190099d7befae135",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-colnago-save-my-race-6wk/"
+    },
+    {
+      "plan_id": 666852,
+      "plan_title": "GFNY World Championship NYC · Finisher · 12wk",
+      "source_path": "athletes/gfny-nyc-finisher-12wk/index.html",
+      "before_sha256": "10539e0d42071e72b6c29ea4104ee9cde74a99abe4404b84ca4f9986c0a4cd9e",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/gfny-nyc-finisher-12wk/"
+    },
+    {
+      "plan_id": 666853,
+      "plan_title": "GFNY World Championship NYC · Finisher · 8wk",
+      "source_path": "athletes/gfny-nyc-finisher-8wk/index.html",
+      "before_sha256": "c057f8d54feea6b8fa3b0a53e4091fe46c92e3663438e60a2eee3db6aa290b7b",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/gfny-nyc-finisher-8wk/"
+    },
+    {
+      "plan_id": 666854,
+      "plan_title": "GFNY World Championship NYC · Time-Crunched · 12wk",
+      "source_path": "athletes/gfny-nyc-time-crunched-12wk/index.html",
+      "before_sha256": "f1db08ea525e1eb198b8866405550fbd20518eb6cf175795c2a6a4de1db485eb",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/gfny-nyc-time-crunched-12wk/"
+    },
+    {
+      "plan_id": 666855,
+      "plan_title": "GFNY World Championship NYC · Time-Crunched · 8wk",
+      "source_path": "athletes/gfny-nyc-time-crunched-8wk/index.html",
+      "before_sha256": "5551b683da17b7f3edd8a3319a37e233c9a3a52c92f19cc6c4f2f161c43d8186",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/gfny-nyc-time-crunched-8wk/"
+    },
+    {
+      "plan_id": 666856,
+      "plan_title": "GFNY World Championship NYC · Compete · 12wk",
+      "source_path": "athletes/gfny-nyc-compete-12wk/index.html",
+      "before_sha256": "619650688eacf487f72b1b25bfc91a0af8574509040f427b2e842d55ce254fb2",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/gfny-nyc-compete-12wk/"
+    },
+    {
+      "plan_id": 666857,
+      "plan_title": "GFNY World Championship NYC · Masters 50+ · 12wk",
+      "source_path": "athletes/gfny-nyc-masters-12wk/index.html",
+      "before_sha256": "3ec9f8547499a4a64a8168858cc9c0764289233353fb5d2c61d808a7c93d699f",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/gfny-nyc-masters-12wk/"
+    },
+    {
+      "plan_id": 666858,
+      "plan_title": "GFNY World Championship NYC · Save My Race · 6wk",
+      "source_path": "athletes/gfny-nyc-save-my-race-6wk/index.html",
+      "before_sha256": "e1dbe0c0ce91fe94ce6167298b7a5ff90f73c61876d1a8694d84d312b57bb3f5",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/gfny-nyc-save-my-race-6wk/"
+    },
+    {
+      "plan_id": 666919,
+      "plan_title": "L'Étape Trondheim · Finisher · 12wk",
+      "source_path": "athletes/letape-norway-finisher-12wk/index.html",
+      "before_sha256": "22323783cab0e13af3d7870d27747f6a3c7ab191cbb5657744fcd2b87159d8df",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-norway-finisher-12wk/"
+    },
+    {
+      "plan_id": 666920,
+      "plan_title": "L'Étape Trondheim · Finisher · 8wk",
+      "source_path": "athletes/letape-norway-finisher-8wk/index.html",
+      "before_sha256": "cb9effeafb73277059b13a4c043b5153f307276d6aa86c73407688742c5c0de6",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-norway-finisher-8wk/"
+    },
+    {
+      "plan_id": 666921,
+      "plan_title": "L'Étape Trondheim · Time-Crunched · 12wk",
+      "source_path": "athletes/letape-norway-time-crunched-12wk/index.html",
+      "before_sha256": "f4099663888d887cb4fad65db1b24997cf81239c857bd84902eecfc011c2a30e",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-norway-time-crunched-12wk/"
+    },
+    {
+      "plan_id": 666922,
+      "plan_title": "L'Étape Trondheim · Time-Crunched · 8wk",
+      "source_path": "athletes/letape-norway-time-crunched-8wk/index.html",
+      "before_sha256": "1b7cde0f00f2e0a578f52f8b1eb071c49e94d16e50398c7b77a0eba1a8631fff",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-norway-time-crunched-8wk/"
+    },
+    {
+      "plan_id": 666923,
+      "plan_title": "L'Étape Trondheim · Compete · 12wk",
+      "source_path": "athletes/letape-norway-compete-12wk/index.html",
+      "before_sha256": "13431d8bb1dd1722880673e9bb20a55a39881a1e8bfb46e9ff2327dddb758e69",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-norway-compete-12wk/"
+    },
+    {
+      "plan_id": 666924,
+      "plan_title": "L'Étape Trondheim · Masters 50+ · 12wk",
+      "source_path": "athletes/letape-norway-masters-12wk/index.html",
+      "before_sha256": "c45adc8fd9c3d43d856c2a2fdb05458c872986931973b817d2d29593dd9f9081",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-norway-masters-12wk/"
+    },
+    {
+      "plan_id": 666925,
+      "plan_title": "L'Étape Trondheim · Save My Race · 6wk",
+      "source_path": "athletes/letape-norway-save-my-race-6wk/index.html",
+      "before_sha256": "f201119632227df98b60f00139f28b69251748cc729fef8e88bba971304ef613",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-norway-save-my-race-6wk/"
+    },
+    {
+      "plan_id": 666940,
+      "plan_title": "L'Étape Cancún · Finisher · 12wk",
+      "source_path": "athletes/letape-cancun-finisher-12wk/index.html",
+      "before_sha256": "f772e51fe7441a88b683d17cf12a476cb8d2389a0e1d1e8cdfc7b46945c230d4",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-cancun-finisher-12wk/"
+    },
+    {
+      "plan_id": 666941,
+      "plan_title": "L'Étape Cancún · Finisher · 8wk",
+      "source_path": "athletes/letape-cancun-finisher-8wk/index.html",
+      "before_sha256": "f5d3bd7cf7fc6020f41e699f14860c5341b793d92aadc2904552ca44ba2b814b",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-cancun-finisher-8wk/"
+    },
+    {
+      "plan_id": 666942,
+      "plan_title": "L'Étape Cancún · Time-Crunched · 12wk",
+      "source_path": "athletes/letape-cancun-time-crunched-12wk/index.html",
+      "before_sha256": "b19a31d2f4a1ff0b06017d86d4ae8279a338aa4d7407705b077c9aaa8f2f4de9",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-cancun-time-crunched-12wk/"
+    },
+    {
+      "plan_id": 666943,
+      "plan_title": "L'Étape Cancún · Time-Crunched · 8wk",
+      "source_path": "athletes/letape-cancun-time-crunched-8wk/index.html",
+      "before_sha256": "c8d0767d832b1b1b18c634226547096681bc344fd5bd8be99849113942c6ac86",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-cancun-time-crunched-8wk/"
+    },
+    {
+      "plan_id": 666944,
+      "plan_title": "L'Étape Cancún · Compete · 12wk",
+      "source_path": "athletes/letape-cancun-compete-12wk/index.html",
+      "before_sha256": "400ce55295788776bca40bfdcac1d02f311c0e5abccd150369c99ee490e9523e",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-cancun-compete-12wk/"
+    },
+    {
+      "plan_id": 666945,
+      "plan_title": "L'Étape Cancún · Masters 50+ · 12wk",
+      "source_path": "athletes/letape-cancun-masters-12wk/index.html",
+      "before_sha256": "1507e841c5cf38f4ac6d722ec5f0b162bfb8e216ad9f0023ca57caa13ceebc08",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-cancun-masters-12wk/"
+    },
+    {
+      "plan_id": 666946,
+      "plan_title": "L'Étape Cancún · Save My Race · 6wk",
+      "source_path": "athletes/letape-cancun-save-my-race-6wk/index.html",
+      "before_sha256": "a73db479db098973d37c5e0cd357b107296ad7097821b0ce23697b70745f4c31",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/letape-cancun-save-my-race-6wk/"
+    },
+    {
+      "plan_id": 666952,
+      "plan_title": "Etape Caledonia · Finisher · 12wk",
+      "source_path": "athletes/etape-caledonia-finisher-12wk/index.html",
+      "before_sha256": "13efdd4d96fec10f6bc1e788fdd5a17a309096cb416d98088e8e74d4d67da8d1",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/etape-caledonia-finisher-12wk/"
+    },
+    {
+      "plan_id": 666953,
+      "plan_title": "Etape Caledonia · Finisher · 8wk",
+      "source_path": "athletes/etape-caledonia-finisher-8wk/index.html",
+      "before_sha256": "102e055d0ee05e561abdadd71ef2bb6f69e368dda7dcd120caf52c991129eb8b",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/etape-caledonia-finisher-8wk/"
+    },
+    {
+      "plan_id": 666954,
+      "plan_title": "Etape Caledonia · Time-Crunched · 12wk",
+      "source_path": "athletes/etape-caledonia-time-crunched-12wk/index.html",
+      "before_sha256": "37062ac2144fa96a4771f486553e629fbd69d2562c83c630ba485b4dc97786bd",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/etape-caledonia-time-crunched-12wk/"
+    },
+    {
+      "plan_id": 666955,
+      "plan_title": "Etape Caledonia · Time-Crunched · 8wk",
+      "source_path": "athletes/etape-caledonia-time-crunched-8wk/index.html",
+      "before_sha256": "8d705e3c2de401d98fcb3ddde743a274a2edd9283b23b8fe4bae14a0ae318258",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/etape-caledonia-time-crunched-8wk/"
+    },
+    {
+      "plan_id": 666956,
+      "plan_title": "Etape Caledonia · Compete · 12wk",
+      "source_path": "athletes/etape-caledonia-compete-12wk/index.html",
+      "before_sha256": "07e0def5587cb02670ac456c991aedef733cb446f364a75c0f4a52a28d572f2b",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/etape-caledonia-compete-12wk/"
+    },
+    {
+      "plan_id": 666957,
+      "plan_title": "Etape Caledonia · Masters 50+ · 12wk",
+      "source_path": "athletes/etape-caledonia-masters-12wk/index.html",
+      "before_sha256": "7dca787a1326f50b4f4683986df92665b1fedf854edbb2698ae2885a28a50b44",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/etape-caledonia-masters-12wk/"
+    },
+    {
+      "plan_id": 666958,
+      "plan_title": "Etape Caledonia · Save My Race · 6wk",
+      "source_path": "athletes/etape-caledonia-save-my-race-6wk/index.html",
+      "before_sha256": "6216353e21ac5d19fc51d2ad15b0d4f2b74ece1f46ec9bbf177b245c71c2889e",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/etape-caledonia-save-my-race-6wk/"
+    },
+    {
+      "plan_id": 667171,
+      "plan_title": "Granfondo La Guadeloupe · Finisher · 12wk",
+      "source_path": "athletes/granfondo-la-guadeloupe-finisher-12wk/index.html",
+      "before_sha256": "6328e41115e6c69c045e68fa9befd2796a14873e896b6b91c9461e32177ba3d2",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-la-guadeloupe-finisher-12wk/"
+    },
+    {
+      "plan_id": 667172,
+      "plan_title": "Granfondo La Guadeloupe · Finisher · 8wk",
+      "source_path": "athletes/granfondo-la-guadeloupe-finisher-8wk/index.html",
+      "before_sha256": "290bea04136e27dfdbe3226b515f826cae31fd15da1d67ca57d7a9e99d677737",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-la-guadeloupe-finisher-8wk/"
+    },
+    {
+      "plan_id": 667173,
+      "plan_title": "Granfondo La Guadeloupe · Time-Crunched · 12wk",
+      "source_path": "athletes/granfondo-la-guadeloupe-time-crunched-12wk/index.html",
+      "before_sha256": "02ebad2b5801af4757e7f6e21dd0ff732fb5643e5a63bb7cca423cd8cf41fdda",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-la-guadeloupe-time-crunched-12wk/"
+    },
+    {
+      "plan_id": 667174,
+      "plan_title": "Granfondo La Guadeloupe · Time-Crunched · 8wk",
+      "source_path": "athletes/granfondo-la-guadeloupe-time-crunched-8wk/index.html",
+      "before_sha256": "22a250e3330172da74a7e552a64bf97ada4152278c6acfb2b1e6c22435844d5f",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-la-guadeloupe-time-crunched-8wk/"
+    },
+    {
+      "plan_id": 667175,
+      "plan_title": "Granfondo La Guadeloupe · Compete · 12wk",
+      "source_path": "athletes/granfondo-la-guadeloupe-compete-12wk/index.html",
+      "before_sha256": "2a849bee0a1cc89fdd91915924e99cd5dfa9b418f07ae1950cfd8a9c160feb20",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-la-guadeloupe-compete-12wk/"
+    },
+    {
+      "plan_id": 667176,
+      "plan_title": "Granfondo La Guadeloupe · Masters 50+ · 12wk",
+      "source_path": "athletes/granfondo-la-guadeloupe-masters-12wk/index.html",
+      "before_sha256": "b060b5b4fd5c1e004aa8c76d9665af1539122b60bb20cf4f40edfc79628e6af2",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-la-guadeloupe-masters-12wk/"
+    },
+    {
+      "plan_id": 667177,
+      "plan_title": "Granfondo La Guadeloupe · Save My Race · 6wk",
+      "source_path": "athletes/granfondo-la-guadeloupe-save-my-race-6wk/index.html",
+      "before_sha256": "9a736911562a37147d02514227a7982cc2994b30b34a1982c037885788fefaa8",
+      "guide_url": "https://wattgod.github.io/roadie-labs-guides/athletes/granfondo-la-guadeloupe-save-my-race-6wk/"
+    }
+  ]
+}

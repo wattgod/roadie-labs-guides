@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+"""Replace the 42 false-personalized road guides with explicit interim notices.
+
+The manifest pins every original file. This publishes a safety correction, not a
+replacement training guide or a certification of the underlying Coach plan.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import html
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+MANIFEST = ROOT / "tools/held_guides_manifest_2026-10-02.json"
+DATE = "2 October 2026"
+
+
+def digest(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def render(title: str, plan_id: int) -> str:
+    title = html.escape(title)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Guide correction in progress | {title}</title>
+  <style>
+    :root {{ color-scheme: light; --ink:#172b27; --muted:#4d5e58; --paper:#f6f4ed; --line:#c8d4ce; --accent:#1f6654; }}
+    * {{ box-sizing:border-box; }}
+    body {{ margin:0; background:var(--paper); color:var(--ink); font:17px/1.6 system-ui,-apple-system,sans-serif; }}
+    header {{ background:#163d33; color:white; padding:45px max(22px,calc((100vw - 760px)/2)); }}
+    main {{ max-width:760px; padding:30px 22px 70px; margin:auto; }}
+    h1 {{ font-size:clamp(2rem,5vw,3.1rem); line-height:1.1; margin:.3em 0; }}
+    h2 {{ font-size:1.35rem; margin:1.5em 0 .3em; }}
+    p {{ margin:.4em 0 1em; }}
+    .eyebrow {{ font-size:.78rem; font-weight:750; letter-spacing:.14em; text-transform:uppercase; }}
+    .notice {{ border-left:5px solid #ad592c; background:#fff3e7; padding:18px 20px; margin:0 0 28px; }}
+    .card {{ border:1px solid var(--line); background:white; padding:19px 22px; margin:20px 0; }}
+    a {{ color:var(--accent); }}
+    footer {{ color:var(--muted); font-size:.84rem; border-top:1px solid var(--line); padding-top:20px; margin-top:40px; }}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Roadie Labs · Plan {plan_id}</div>
+    <h1>{title}</h1>
+    <p>Training guide correction in progress</p>
+  </header>
+  <main>
+    <div class="notice" role="alert">
+      <strong>Please stop using the previous version of this guide.</strong>
+      It displayed fixed example FTP, body weight, power zones, hydration math,
+      and purported questionnaire answers as though they belonged to you. We did not collect
+      those answers for this stock TrainingPeaks plan. Those numbers were not your prescription.
+    </div>
+    <h2>What to do now</h2>
+    <div class="card">
+      <p>Remove any power zones or fluid targets you copied from the old guide.
+      Use only settings based on your own current assessment and the instructions
+      in your TrainingPeaks workout card. If you cannot establish a reliable
+      target, pause the power-targeted session and ask for help before doing it.</p>
+      <p>Check the current event date, course, and rules with the organizer before
+      making travel or race-day decisions. The prior guide's countdown and route
+      details are under review.</p>
+      <p>The Coach calendar is also being reviewed for workout dose, structured
+      strength, and consistency with the product listing. This notice does not
+      certify those workouts or replace individual coaching.</p>
+    </div>
+    <h2>Request help with your current plan</h2>
+    <p>If you have purchased this plan, especially if your event is near, email
+      <a href="mailto:plans@gravelgodcoaching.com?subject=Roadie%20plan%20guide%20correction">plans@gravelgodcoaching.com</a>
+      with the plan name and your event date to request guidance on which
+      sessions to use while the full guide is corrected.</p>
+    <p>This notice will stay here until a complete, race-specific guide has passed
+      calendar, race-fact, nutrition, strength, and buyer-copy review.</p>
+    <footer>Correction published {DATE}. This is a temporary buyer notice, not the completed training guide.</footer>
+  </main>
+</body>
+</html>
+"""
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--check", action="store_true", help="validate pinned source and output without writing")
+    args = parser.parse_args()
+    manifest = json.loads(MANIFEST.read_text())
+    entries = manifest["entries"]
+    if len(entries) != 42 or len({e["plan_id"] for e in entries}) != 42:
+        raise SystemExit("manifest must contain exactly 42 unique plans")
+    for entry in entries:
+        path = ROOT / entry["source_path"]
+        if not path.is_file() or not path.resolve().is_relative_to((ROOT / "athletes").resolve()):
+            raise SystemExit(f"unexpected guide path: {path}")
+        current = path.read_bytes()
+        expected = render(entry["plan_title"], entry["plan_id"]).encode()
+        if args.check:
+            if current != expected:
+                raise SystemExit(f"render mismatch: {path}")
+        elif digest(current) != entry["before_sha256"]:
+            raise SystemExit(f"pinned before-image changed: {path}")
+        else:
+            path.write_bytes(expected)
+    print(f"{'Validated' if args.check else 'Rendered'} {len(entries)} held guide notices")
+
+
+if __name__ == "__main__":
+    main()
