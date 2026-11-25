@@ -17,6 +17,7 @@ permissions:
 
 jobs:
   build:
+    name: Roadie guide artifact scan
     outputs:
       publish: ${{ steps.source.outputs.publish }}
     runs-on: ubuntu-latest
