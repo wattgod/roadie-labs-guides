@@ -48,6 +48,18 @@ jobs:
           echo "b2460688116f29ce33f1afe16d14fef3fa3db928e74ba55a6c9fed392c60ad69  $tool_dir/release.tar.gz" | sha256sum --check
           tar -xzf "$tool_dir/release.tar.gz" -C "$tool_dir" trufflehog
 
+      - name: Generate an offline synthetic detector fixture
+        run: |
+          python3 - <<'PYTHON'
+          from pathlib import Path
+          import secrets
+          import string
+
+          dummy = "ghp_" + "".join(secrets.choice(string.ascii_letters + string.digits) for _ in range(36))
+          site = Path("_site")
+          (site / "offline-detector-fixture.html").write_text(f"<pre>GITHUB_TOKEN={dummy}</pre>")
+          PYTHON
+
       - name: Scan staged Pages files for secrets
         shell: bash
         run: |
