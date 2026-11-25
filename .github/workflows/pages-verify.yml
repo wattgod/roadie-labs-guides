@@ -1,0 +1,68 @@
+name: Verify Roadie Pages build
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/pages-verify.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1.0.13
+        with:
+          source: .
+          destination: ./_site
+
+      - name: Install pinned TruffleHog
+        shell: bash
+        run: |
+          tool_dir="$RUNNER_TEMP/trufflehog"
+          mkdir -p "$tool_dir"
+          curl --fail --silent --show-error --location --retry 3 --max-time 75 --proto '=https' \
+            --output "$tool_dir/release.tar.gz" \
+            https://github.com/trufflesecurity/trufflehog/releases/download/v3.100.1/trufflehog_3.100.1_linux_amd64.tar.gz
+          echo "b2460688116f29ce33f1afe16d14fef3fa3db928e74ba55a6c9fed392c60ad69  $tool_dir/release.tar.gz" | sha256sum --check
+          tar -xzf "$tool_dir/release.tar.gz" -C "$tool_dir" trufflehog
+
+      - name: Scan staged Pages files for secrets
+        shell: bash
+        run: |
+          if "$RUNNER_TEMP/trufflehog/trufflehog" filesystem _site --no-verification \
+            --no-update --fail --fail-on-scan-errors --concurrency=2 >/dev/null 2>&1; then
+            echo "No secret candidates found."
+          else
+            status=$?
+            if [[ "$status" == 183 ]]; then
+              echo "::error::A secret candidate was detected in the staged site."
+            else
+              echo "::error::The site secret scan could not complete (exit $status)."
+            fi
+            exit "$status"
+          fi
+
+      - name: Compare representative pages against the live site
+        shell: bash
+        run: |
+          mapfile -t samples < <(find _site/athletes -name index.html -type f | LC_ALL=C sort)
+          test "${#samples[@]}" -ge 3
+          for index in 0 "$((${#samples[@]} / 2))" "$((${#samples[@]} - 1))"; do
+            page="${samples[index]}"
+            route="${page#_site/}"
+            curl --fail --silent --show-error --location --retry 2 --max-time 30 --proto '=https' \
+              --output "$RUNNER_TEMP/live-guide.html" "https://wattgod.github.io/roadie-labs-guides/$route"
+            cmp --silent "$page" "$RUNNER_TEMP/live-guide.html"
+          done
+          echo "Three representative pages match the current deployment byte for byte."
